@@ -1,0 +1,94 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Header styles */
+header {
+    background-color: #2f0101;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Main styles */
+main {
+    padding: 20px 0;
+}
+
+.candy-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 300px; /* Medium width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Footer styles */
+footer {
+    background-color: #412222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.company-info {
+    margin-bottom: 20px;
+}
+
+.company-info p {
+    margin-bottom: 5px;
+}
+
+.contact-form {
+    text-align: left;
+}
+
+.contact-form h3 {
+    margin-bottom: 10px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-form button {
+    background-color: #f9faf9;
+    color: #320303;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
